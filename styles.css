@@ -36,5 +36,31 @@ p {
 }
 
 button {
+  display: none;
   margin: 20px;
+  padding: 5px 20px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: hsl(96, 100%, 90%);
+}
+
+#h {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-reset {
+  display: block;
+}
+
+.btn-verify {
+  display: block;
 }
